@@ -38,8 +38,6 @@ RSpec.describe GetIn do
       }
 
       directions = [:with_another, [:inner, [:and_another, :inside]]]
-      # with another > inner
-      # with another > inner > and another > inside
 
       result = ["hash", "that"]
 
